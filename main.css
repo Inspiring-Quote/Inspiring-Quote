@@ -1,0 +1,61 @@
+body{
+    background: url(./images/night-sky.gif);
+}
+
+.quoete-widndow{
+    align-items: center;
+    text-align: center;
+    color: rgb(216, 210, 183);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3vw;
+}
+
+.paper {
+    position: relative;
+    margin-left: 55px;
+    margin-top: -20px;
+}
+
+.quote{
+    position: absolute;
+    color: #e8d4ac;
+    margin-top: -250px;
+    width: 100%;
+    text-shadow: 2px 1px 3px rgb(155, 131, 80);
+    font-style: normal;
+}
+
+
+.btn {
+    position: absolute;
+    margin-left: -490px;
+    margin-top: 340px;
+    background-color: rgb(199, 194, 174);;
+    border-width: 10px;
+    border-color: rgb(151, 119, 43);
+    height: 70px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:772px) {
+    .btn{
+        margin-top: 20px;
+        margin-left: -100px;
+    }
+}
+
+.bear1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.bear2{
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 100px;
+}
