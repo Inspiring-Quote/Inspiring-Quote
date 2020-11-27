@@ -3,14 +3,14 @@
 .preloader {
     position: fixed;
     width: 100%;
-    height: cover;
+    height: auto;
     margin-top: -40px;
     transition: 1s all;
     opacity: 1;
     visibility: visible;
     background: url(./images/sky.jpeg);
     background-size: cover;
-    z-index: 1000;
+    z-index: 2001;
 
 }
 
