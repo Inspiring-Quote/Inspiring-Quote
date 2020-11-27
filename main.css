@@ -13,13 +13,16 @@ body{
     font-weight: bold;
     font-style: italic;
     font-size: 3vw;
+    width: 100%;
 }
 
 .paper {
     position: relative;
     margin-left: 55px;
     margin-top: -20px;
-    width: 90%;
+    width: 50%;
+    height: auto;
+    
 }
 
 .quote{
