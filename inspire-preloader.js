@@ -1,9 +1,6 @@
-document.body.onload = function() {
-    setTimeout(function(){
-        var preloader=document.getElementById('preload');
-        if(!preloader.classList.contains('done')) {
-            preloader.classList.add('done');
-        }
-    }, 1000);
-};
-
+$(window).on('load', function(){
+    $preloader=$('.preloader'),
+    $loader=$preloader.find('.load');
+    $loader.fadeOut();
+    $preloader.delay(400).fadeOut('slow');
+});

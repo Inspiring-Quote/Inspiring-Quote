@@ -4,6 +4,8 @@ body{
     height: 100%;
 }
 
+
+
 .quoete-widndow{
     margin-bottom: -15px;
     align-items: center;
@@ -85,6 +87,10 @@ body{
 
 
 @media (max-width:777px) {
+    body{
+        overflow: hidden;
+
+    }
     
     .bear1{
         visibility: hidden;
