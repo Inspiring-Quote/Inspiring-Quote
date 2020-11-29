@@ -1,5 +1,4 @@
 
-
 .preloader {
     background: url(./images/sky.jpeg);
     overflow: hidden;
@@ -9,17 +8,19 @@
     right:0;
     bottom:0;
     z-index: 9999;
+    transition: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .done{
     opacity: 0;
-    visibility: hidden;
+    display: none;
 }
 
-.load{
-    display: flex;
-    margin-top: 70px;
-    margin-left: 250px;
+.loader{
+    margin-top: 5%;
     animation: rotate;
     animation-duration: 4s;
     animation-timing-function: linear;
@@ -28,8 +29,8 @@
 
 
 @media(max-width: 800px){
-  .load{
-    padding-top: 15%;
+  .loader{
+    margin-left: -30px;
     width: 50%;
     height: auto;
 
@@ -38,8 +39,7 @@
 }
 
 
-
-@keyframes rotate {
+@keyframes rotate{
     from {
         transform: rotate(0deg);
       }
