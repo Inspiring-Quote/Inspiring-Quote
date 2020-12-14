@@ -12,29 +12,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
   }
 
 .done{
     opacity: 0;
 }
 
+
 .loader{
-    margin-top: 5%;
+  max-width: 100%;
+
     animation: rotate;
     animation-duration: 4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-}
-
-
-@media(max-width: 800px){
-  .loader{
-    margin-left: -30px;
-    width: 50%;
-    height: auto;
-
-  }
-
 }
 
 

@@ -55,14 +55,3 @@ $(document).ready(function() {
        });
     });
 
-//using timestr '10:33:21', could also be '10-33-21'
- timestr="22:54";
-
-
-var dat = new Date(), time = timestr.split(/\:|\-/g);
-dat.setHours(time[0]);
-dat.setMinutes(time[1]);
-
-
-
-
