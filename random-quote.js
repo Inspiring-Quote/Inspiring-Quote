@@ -54,28 +54,15 @@ $(document).ready(function() {
 
        });
     });
-/* 
-    function formatDate(date) {
-   
-    
-      // format the date
-      // add leading zeroes to single-digit day/month/hours/minutes
-      let d = date;
-      d = [
-        '0' + d.getDate(),
-        '0' + (d.getMonth() + 1),
-        '' + d.getFullYear(),
-        '0' + d.getHours(),
-        '0' + d.getMinutes()
-      ].map(component => component.slice(-2)); // take last 2 digits of every component
-    
-      // join the components into date
-      return d.slice(0, 3).join('.') + ' ' + d.slice(3).join(':');
-    }
-    
 
-    
-    // yesterday's date like 31.12.2016 20:00
-    alert( formatDate(new Date()) );
+//using timestr '10:33:21', could also be '10-33-21'
+ timestr="22:54";
 
-    */
+
+var dat = new Date(), time = timestr.split(/\:|\-/g);
+dat.setHours(time[0]);
+dat.setMinutes(time[1]);
+
+
+
+

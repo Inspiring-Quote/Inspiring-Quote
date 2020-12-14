@@ -1,12 +1,20 @@
 body{
     background: url(./images/night-sky.gif);
-    width: 100%;
-    height: 100%;
+    min-width: 1200px;
+    max-height: 600px;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 
-
 .quoete-widndow{
+    display: flex;
+    flex-direction: column;
     margin-bottom: -15px;
     align-items: center;
     text-align: center;
@@ -20,98 +28,75 @@ body{
 
 .paper {
     position: relative;
-    margin-left: 55px;
-    margin-top: -20px;
+    margin-bottom: 20%;
+    margin-right: 15%;
+    max-width: 100%;
     
 }
 
 .quote{
-    position: absolute;
-    color: #e8d4ac;
-    margin-top: -250px;
+    position: relative;
+    align-items: center;
+    align-self: center;
     width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: #e8d4ac;
     text-shadow: 2px 1px 3px rgb(155, 131, 80);
     font-style: normal;
+    font-size: 2.5vw;
+}
+
+.quote-container {
+    position:absolute;
+    display: flex;
+    margin-top: -590px;
+    margin-left: 40px;
+    width: 600px;
+    height: 350px;
 }
 
 
+.btn-margin{
+    margin-top: -130px;
+}
+
 .btn {
-    position: absolute;
-    margin-left: -490px;
-    margin-top: 340px;
+    position: relative;
     background-color: rgb(199, 194, 174);;
     border-width: 10px;
     border-color: rgb(151, 119, 43);
     height: 70px;
     width: 250px;
-    margin-bottom: 20px;
     border-radius: 10px;
 }
 
-@media (max-width:1232px) {
-    .bear1{
-        height: 270px;
-        width: auto;
-    }
-    .bear2{
-        height: 270px;
-        width: auto;
-        margin-right:720px;
-    }
-    .paper{
-        width: 520px;
-        height: auto;
-    }
-    .btn{
-        margin-top: 370px;
-        margin-left: -385px;
-    }
-}
-
-@media (max-width:577px){
-    .btn{
-        margin-top: 370px;
-        margin-left: -385px;
-    }
-}
-
-@media (max-width:570px) {
-    
-    .btn{
-        margin-left: -90px;
-        margin-top: 5px;
-
-
-    }
-}
-
-
-@media (max-width:777px) {
-    body{
-        overflow: hidden;
-
-    }
-    
-    .bear1{
-        visibility: hidden;
-    }
-    .bear2{
-        visibility: hidden;
-    }
-}
-
-
-
 .bear1{
     position: absolute;
-    margin-top: -320px;
-    margin-left: 10%;
+    margin-top: -440px;
+   margin-left: -560px;
 }
 
 
 
 .bear2{
     position: absolute;
-    margin-left: 80%;
-    margin-top: -320px;
+    margin-top: -440px;
+    margin-left: 350px;
+}
+
+.ornament {
+    max-width:100%;
+}
+
+@media (max-width: 861px) {
+    .bear1{
+        height: 250px;
+        width: auto;
+        padding-right: 40px;
+    }
+    .bear2{
+        height: 250px;
+        width: auto;
+    }
 }
