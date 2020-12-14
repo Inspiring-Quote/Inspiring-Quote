@@ -65,8 +65,9 @@ body{
     background-color: rgb(199, 194, 174);;
     border-width: 10px;
     border-color: rgb(151, 119, 43);
-    height: 70px;
-    width: 250px;
+    height: 100px;
+    width: 270px;
+    font-size: 2vw;
     border-radius: 10px;
 }
 
@@ -88,14 +89,3 @@ body{
     max-width:100%;
 }
 
-@media (max-width: 861px) {
-    .bear1{
-        height: 250px;
-        width: auto;
-        padding-right: 40px;
-    }
-    .bear2{
-        height: 250px;
-        width: auto;
-    }
-}
