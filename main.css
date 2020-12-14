@@ -1,7 +1,6 @@
 body{
     background: url(./images/night-sky.gif);
     min-width: 1200px;
-    overflow-x: scroll;
 }
 
 .wrapper{
